@@ -17,7 +17,7 @@
 
 ## 2. Startup container with shared folder
 
-```docker run -it -v {local_shared_folder}:/pub emedeiros/teste```
+```docker run -it -v {local_shared_folder}:/pub emedeiros/asciidoctor```
 
 ## 3. Startup container with shared folder and nginx (webserver).
 
@@ -32,9 +32,10 @@
 ```nginx```
 
 
-### 3.2 Access your document.
+### 3.3 Access your document.
 
-Open your browser and type the url: ```http://docker.ip:8080/asciidoctor/{file.html}```
+Open your browser and type the url: 
+```http://docker.ip:8080/asciidoctor/{file.html}```
 
 
 ## TIPS:
