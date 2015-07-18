@@ -18,7 +18,8 @@ RUN gem install coderay pygments.rb
 RUN gem install --pre asciidoctor-pdf
 
 # Install nginx to publishing of files.
-RUN yum install epel-release nginx -y
+RUN yum install epel-release -y
+RUN yum install nginx -y
 
 # Create a symbolic link (/pub).
 RUN mkdir -p /usr/share/nginx/html/asciidoctor
