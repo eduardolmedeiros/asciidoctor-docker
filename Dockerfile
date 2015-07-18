@@ -25,6 +25,5 @@ RUN yum install nginx -y
 RUN mkdir -p /usr/share/nginx/html/asciidoctor
 RUN ln -s /usr/share/nginx/html/asciidoctor pub
 
-# Startup nginx during boot.
-CMD ["/usr/sbin/nginx"]
+# Startup bash during boot.
 CMD ["/bin/bash"]
