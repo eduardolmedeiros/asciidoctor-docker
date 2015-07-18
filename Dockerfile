@@ -25,9 +25,6 @@ RUN yum install nginx -y
 RUN mkdir -p /usr/share/nginx/html/asciidoctor
 RUN ln -s /usr/share/nginx/html/asciidoctor pub
 
-# Copy example file to /pub (nginx document root)
-ADD example.adoc /pub
-
 # Startup nginx during boot.
 CMD ["nginx"]
 CMD ["/bin/bash"]
