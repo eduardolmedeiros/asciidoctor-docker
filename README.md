@@ -32,9 +32,10 @@
 ```nginx```
 
 
-### 3.3 Access your document.
+### 3.3 Access your document
 
 Open your browser and type the url: 
+
 ```http://docker.ip:8080/asciidoctor/{file.html}```
 
 
