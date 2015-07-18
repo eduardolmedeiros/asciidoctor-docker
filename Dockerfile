@@ -26,5 +26,5 @@ RUN mkdir -p /usr/share/nginx/html/asciidoctor
 RUN ln -s /usr/share/nginx/html/asciidoctor pub
 
 # Startup nginx during boot.
-CMD ["nginx"]
+CMD ["/usr/sbin/nginx"]
 CMD ["/bin/bash"]
