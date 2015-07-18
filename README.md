@@ -26,11 +26,9 @@
 
 ```docker run -it -p 8080:80 -v {local_shared_folder}:/pub/ emedeiros/asciidoctor```
 
-
 ## 3.2 Start nginx
 
 ```nginx```
-
 
 ## 3.3 Access your document.
 
