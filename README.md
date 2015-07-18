@@ -28,8 +28,6 @@
 
 ### 3.2 Start nginx
 
-```nginx```
-
 ### 3.3 Access your document
 
 Open your browser and type the url
