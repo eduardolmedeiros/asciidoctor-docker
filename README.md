@@ -48,6 +48,8 @@ http://docker.ip:8080/asciidoctor/{file.html}
 
 ## TIPS:
 
+### Save your documments on /pub directory
+
 ### Convert adoc document to html
 
 ```sh
