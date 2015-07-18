@@ -43,6 +43,7 @@ Open your browser and type the url:
 
 ```sh
 http://docker.ip:8080/asciidoctor/{file.html}
+http://docker.ip:8080/asciidoctor/{file.pdf}
 ```
 
 
